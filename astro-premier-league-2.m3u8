@@ -1,0 +1,37 @@
+#EXTM3U
+#EXT-X-VERSION:3
+## Created with GitHub Actions Auto Packager
+#EXT-X-MEDIA-SEQUENCE:446177825
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-TARGETDURATION:4
+#USP-X-TIMESTAMP-MAP:MPEGTS=767785031,LOCAL=2026-07-22T09:08:20.559Z
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:20.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:24.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:28.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:32.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:36.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:40.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:44.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:48.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:52.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
+#EXT-X-PROGRAM-DATE-TIME:2026-07-22T09:08:56.559Z
+#EXTINF:4, no desc
+https://t.freetv.fun/live/astro-premier-league-2-tv.ts
