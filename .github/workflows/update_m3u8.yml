@@ -2,15 +2,14 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    # Chạy tự động mỗi 5 phút một lần
     - cron: '*/5 * * * *'
-  workflow_dispatch: # Cho phép bấm nút chạy thủ công trên web GitHub
+  workflow_dispatch:
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Cho phép action commit code ngược lại repo
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,6 +21,15 @@ jobs:
 
       - name: Run script to generate m3u8
         run: python gen.py
+
+      - name: Verify file exists
+        run: |
+          if [ -f "playlist.m3u8" ]; then
+            echo "File playlist.m3u8 exists."
+          else
+            echo "Error: playlist.m3u8 was not generated!"
+            exit 1
+          fi
 
       - name: Commit and push if changed
         run: |
